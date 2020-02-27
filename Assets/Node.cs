@@ -19,7 +19,7 @@ public class Node {
         gridY = _gridY;
 	}
 
-    public int fCost(){
+    public int fCost{
         get {
             return gCost + hCost;
         }
